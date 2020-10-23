@@ -1,0 +1,25 @@
+{
+    "name": "bitskingdom/creator",
+    "description": "",
+    "license": "MIT",
+    "homepage": "https://bitskingdom.com",
+    "authors": [
+        {
+            "name": "Michael Cardoza",
+            "email": "michael@bitskingdom.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^v4.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "BK\\Package\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
