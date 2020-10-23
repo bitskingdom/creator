@@ -2,11 +2,8 @@
 
 namespace BK\Package;
 
-require_once __DIR__ . '/../vendor/autoload.php';
-
 use Symfony\Component\Console\Application;
 use BK\Package\Command\CreatorCommand;
-
 
 class Creator
 {
